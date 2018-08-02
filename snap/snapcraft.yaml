@@ -1,0 +1,15 @@
+
+  name: open-source-billing
+  version: '2.0'
+  summary: A simple web application to create and send invoices...
+  description: |
+    A simple web application to create and send invoices, receive payments, manage clients and companies.
+
+  grade: stable
+  confinement: strict
+
+  parts:
+    my-part:
+      # See 'snapcraft plugins'
+      plugin: nil
+  
